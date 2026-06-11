@@ -203,20 +203,20 @@ fit <- pvEBayes(
   n_posterior_draws = 1000
 )
 #> ℹ Fitting general-gamma model...
-#> ✔ Fitting general-gamma model... [218ms]
+#> ✔ Fitting general-gamma model... [126ms]
 #> 
 #> ℹ Generating 1000 posterior draws...
-#> ✔ Generating 1000 posterior draws... [36ms]
+#> ✔ Generating 1000 posterior draws... [24ms]
 #> 
 #> Object of class 'pvEBayes'
 #> 
 #> General-gamma model with hyperparameter alpha = 0.3.
 #> Estimated prior is a mixture of 18 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.2262 seconds.
+#> Running time of the general-gamma model fitting: 0.1312 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (1000 signal strength posterior draws per AE-drug pair):0.044 seconds.
+#> (1000 signal strength posterior draws per AE-drug pair):0.0286 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
@@ -227,19 +227,19 @@ fit_Kgamma <- pvEBayes(
   K = 3, n_posterior_draws = 1000
 )
 #> ℹ Fitting K-gamma model...
-#> ✔ Fitting K-gamma model... [25ms]
+#> ✔ Fitting K-gamma model... [15ms]
 #> 
 #> ℹ Generating 1000 posterior draws...
-#> ✔ Generating 1000 posterior draws... [33ms]
+#> ✔ Generating 1000 posterior draws... [25ms]
 #> 
 #> Object of class 'pvEBayes'
 #> 
 #> K-gamma model with number of gamma mixture components K = 3.
 #> 
-#> Running time of the K-gamma model fitting: 0.0326 seconds.
+#> Running time of the K-gamma model fitting: 0.0198 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (1000 signal strength posterior draws per AE-drug pair):0.0401 seconds.
+#> (1000 signal strength posterior draws per AE-drug pair):0.0299 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
@@ -256,19 +256,19 @@ fit_efron <- pvEBayes(
   n_posterior_draws = 1000
 )
 #> ℹ Fitting efron model...
-#> ✔ Fitting efron model... [202ms]
+#> ✔ Fitting efron model... [119ms]
 #> 
 #> ℹ Generating 1000 posterior draws...
-#> ✔ Generating 1000 posterior draws... [38ms]
+#> ✔ Generating 1000 posterior draws... [30ms]
 #> 
 #> Object of class 'pvEBayes'
 #> 
 #> efron model is fitted with hyperparameters (p = 40, c0 = 0.05).
 #> 
-#> Running time of the efron model fitting: 0.2128 seconds.
+#> Running time of the efron model fitting: 0.1265 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (1000 signal strength posterior draws per AE-drug pair):0.0491 seconds.
+#> (1000 signal strength posterior draws per AE-drug pair):0.037 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
@@ -278,19 +278,19 @@ fit_efron <- pvEBayes(
 
 fit_gps <- pvEBayes(statin2025_44, model = "GPS")
 #> ℹ Fitting GPS model...
-#> ✔ Fitting GPS model... [31ms]
+#> ✔ Fitting GPS model... [19ms]
 #> 
 #> ℹ Generating 1000 posterior draws...
-#> ✔ Generating 1000 posterior draws... [32ms]
+#> ✔ Generating 1000 posterior draws... [28ms]
 #> 
 #> Object of class 'pvEBayes'
 #> 
 #> GPS (2-gamma) model is fitted
 #> 
-#> Running time of the GPS model fitting: 0.0412 seconds.
+#> Running time of the GPS model fitting: 0.0258 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (1000 signal strength posterior draws per AE-drug pair):0.039 seconds.
+#> (1000 signal strength posterior draws per AE-drug pair):0.0342 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.

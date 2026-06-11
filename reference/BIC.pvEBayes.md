@@ -37,14 +37,14 @@ fit <- pvEBayes(
   alpha = 0.3, n_posterior_draws = NULL
 )
 #> ℹ Fitting general-gamma model...
-#> ✔ Fitting general-gamma model... [229ms]
+#> ✔ Fitting general-gamma model... [135ms]
 #> 
 #> Object of class 'pvEBayes'
 #> 
 #> General-gamma model with hyperparameter alpha = 0.3.
 #> Estimated prior is a mixture of 18 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.2454 seconds.
+#> Running time of the general-gamma model fitting: 0.1476 seconds.
 #> Optimizer convergence: successful.
 #> No posterior draws were generated.
 #> 
