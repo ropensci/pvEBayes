@@ -181,6 +181,15 @@ posterior_draws <- function(obj,
 #' @returns a matrix
 #' @export
 #'
+#' @examples
+#'
+#' fit <- pvEBayes(
+#'   contin_table = statin2025_44, model = "general-gamma",
+#'   alpha = 0.3, n_posterior_draws = 1000
+#' )
+#'
+#' posterior_probs <- get_posterior_prob(fit,
+#' cutoff_signal = 1.001)
 get_posterior_prob <- function(obj,
                                cutoff_signal = 1.001) {
   tmp <- obj$posterior_draws

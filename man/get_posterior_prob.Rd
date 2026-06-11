@@ -20,3 +20,13 @@ a matrix
 \description{
 Obtain posterior probability of being a signal
 }
+\examples{
+
+fit <- pvEBayes(
+  contin_table = statin2025_44, model = "general-gamma",
+  alpha = 0.3, n_posterior_draws = 1000
+)
+
+posterior_probs <- get_posterior_prob(fit,
+cutoff_signal = 1.001)
+}
