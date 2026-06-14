@@ -153,10 +153,9 @@ details.
 
 ## Code of Conduct
 
-Please note that the `pvEBayes` project is released with a [Contributor
-Code of
-Conduct](https://yihaotancn.github.io/pvEBayes/CODE_OF_CONDUCT.html). By
-contributing to this project, you agree to abide by its terms.
+Please note that this package is released with a [Contributor Code of
+Conduct](https://ropensci.org/code-of-conduct/). By contributing to this
+project, you agree to abide by its terms.
 
 ## References
 

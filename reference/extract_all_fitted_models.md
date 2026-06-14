@@ -54,7 +54,7 @@ extract_all_fitted_models(tuned_object)
 #> General-gamma model with hyperparameter alpha = 0.1.
 #> Estimated prior is a mixture of 1 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 7e-04 seconds.
+#> Running time of the general-gamma model fitting: 8e-04 seconds.
 #> Optimizer convergence: successful.
 #> No posterior draws were generated.
 #> 
@@ -67,7 +67,7 @@ extract_all_fitted_models(tuned_object)
 #> General-gamma model with hyperparameter alpha = 0.1.
 #> Estimated prior is a mixture of 1 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 7e-04 seconds.
+#> Running time of the general-gamma model fitting: 8e-04 seconds.
 #> Optimizer convergence: successful.
 #> No posterior draws were generated.
 #> 
@@ -81,7 +81,7 @@ extract_all_fitted_models(tuned_object)
 #> General-gamma model with hyperparameter alpha = 0.
 #> Estimated prior is a mixture of 7 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.0065 seconds.
+#> Running time of the general-gamma model fitting: 0.0062 seconds.
 #> Optimizer convergence: not achieved.
 #> No posterior draws were generated.
 #> 
@@ -94,7 +94,7 @@ extract_all_fitted_models(tuned_object)
 #> General-gamma model with hyperparameter alpha = 0.1.
 #> Estimated prior is a mixture of 1 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 7e-04 seconds.
+#> Running time of the general-gamma model fitting: 8e-04 seconds.
 #> Optimizer convergence: successful.
 #> No posterior draws were generated.
 #> 
@@ -133,7 +133,7 @@ extract_all_fitted_models(tuned_object)
 #> General-gamma model with hyperparameter alpha = 0.7.
 #> Estimated prior is a mixture of 1 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 9e-04 seconds.
+#> Running time of the general-gamma model fitting: 8e-04 seconds.
 #> Optimizer convergence: successful.
 #> No posterior draws were generated.
 #> 
