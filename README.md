@@ -4,7 +4,7 @@
 [![CRAN status](https://www.r-pkg.org/badges/version/pvEBayes)](https://CRAN.R-project.org/package=pvEBayes)
 [![R-CMD-check](https://github.com/YihaoTancn/pvEBayes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/YihaoTancn/pvEBayes/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/YihaoTancn/pvEBayes/graph/badge.svg)](https://app.codecov.io/gh/YihaoTancn/pvEBayes)
-[![CodeFactor](https://www.codefactor.io/repository/github/yihaotancn/pvebayes/badge)](https://www.codefactor.io/repository/github/yihaotancn/pvebayes)
+[![CodeFactor](https://www.codefactor.io/repository/github/ropensci/pvebayes/badge)](https://www.codefactor.io/repository/github/ropensci/pvebayes)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Status at rOpenSci Software Peer Review](https://badges.ropensci.org/760_status.svg)](https://github.com/ropensci/software-review/issues/760)
 <!-- badges: end -->
