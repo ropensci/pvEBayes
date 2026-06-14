@@ -42,7 +42,7 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json">
 </form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/YihaoTancn/pvEBayes/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/ropensci/pvEBayes/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -59,7 +59,7 @@
       <h1>Introduction to pvEBayes</h1>
             
       
-      <small class="dont-index">Source: <a href="https://github.com/YihaoTancn/pvEBayes/blob/main/vignettes/pvEBayes-introduction.Rmd" class="external-link"><code>vignettes/pvEBayes-introduction.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/ropensci/pvEBayes/blob/main/vignettes/pvEBayes-introduction.Rmd" class="external-link"><code>vignettes/pvEBayes-introduction.Rmd</code></a></small>
       <div class="d-none name"><code>pvEBayes-introduction.Rmd</code></div>
     </div>
 
@@ -213,7 +213,7 @@ with ‘pvEBayes’.</p>
 <h3 id="analyzing-fda-statin-srs-data-with-pvebayes">Analyzing FDA statin SRS data with pvEBayes<a class="anchor" aria-label="anchor" href="#analyzing-fda-statin-srs-data-with-pvebayes"></a>
 </h3>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/YihaoTancn/pvEBayes" class="external-link">pvEBayes</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://docs.ropensci.org/pvEBayes" class="external-link">pvEBayes</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/Random.html" class="external-link">set.seed</a></span><span class="op">(</span><span class="fl">1</span><span class="op">)</span></span>
@@ -268,20 +268,20 @@ using the pvEBayes() function.</p>
 <span>  tol_ecm <span class="op">=</span> <span class="fl">1e-4</span>  <span class="co">#default value</span></span>
 <span><span class="op">)</span></span>
 <span><span class="co">#&gt; <span style="color: #00BBBB;">ℹ</span> Fitting general-gamma model...</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> Fitting general-gamma model... <span style="color: #B2B2B2;">[351ms]</span></span></span>
+<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> Fitting general-gamma model... <span style="color: #B2B2B2;">[335ms]</span></span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; <span style="color: #00BBBB;">ℹ</span> Generating 1000 posterior draws...</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> Generating 1000 posterior draws... <span style="color: #B2B2B2;">[107ms]</span></span></span>
+<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> Generating 1000 posterior draws... <span style="color: #B2B2B2;">[96ms]</span></span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Object of class 'pvEBayes'</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; General-gamma model with hyperparameter alpha = 0.5.</span></span>
 <span><span class="co">#&gt; Estimated prior is a mixture of 18 gamma distributions.</span></span>
 <span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; Running time of the general-gamma model fitting: 0.3596 seconds.</span></span>
+<span><span class="co">#&gt; Running time of the general-gamma model fitting: 0.3443 seconds.</span></span>
 <span><span class="co">#&gt; Optimizer convergence: successful.</span></span>
 <span><span class="co">#&gt; Running time for posterior draws </span></span>
-<span><span class="co">#&gt; (1000 signal strength posterior draws per AE-drug pair):0.2252 seconds.</span></span>
+<span><span class="co">#&gt; (1000 signal strength posterior draws per AE-drug pair):0.1886 seconds.</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Extract estimated prior parameters, discovered signals</span></span>
 <span><span class="co">#&gt; and signal strength posterior draws using `summary()`.</span></span>
@@ -309,20 +309,20 @@ smaller convergence tolerance.</p>
 <span>  tol_ecm <span class="op">=</span> <span class="fl">1e-8</span>  <span class="co">#smaller tolerance for convergence </span></span>
 <span><span class="op">)</span></span>
 <span><span class="co">#&gt; <span style="color: #00BBBB;">ℹ</span> Fitting general-gamma model...</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> Fitting general-gamma model... <span style="color: #B2B2B2;">[357ms]</span></span></span>
+<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> Fitting general-gamma model... <span style="color: #B2B2B2;">[347ms]</span></span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; <span style="color: #00BBBB;">ℹ</span> Generating 1000 posterior draws...</span></span>
-<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> Generating 1000 posterior draws... <span style="color: #B2B2B2;">[37ms]</span></span></span>
+<span><span class="co">#&gt; <span style="color: #00BB00;">✔</span> Generating 1000 posterior draws... <span style="color: #B2B2B2;">[35ms]</span></span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Object of class 'pvEBayes'</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; General-gamma model with hyperparameter alpha = 0.5.</span></span>
 <span><span class="co">#&gt; Estimated prior is a mixture of 18 gamma distributions.</span></span>
 <span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; Running time of the general-gamma model fitting: 0.365 seconds.</span></span>
+<span><span class="co">#&gt; Running time of the general-gamma model fitting: 0.3553 seconds.</span></span>
 <span><span class="co">#&gt; Optimizer convergence: not achieved.</span></span>
 <span><span class="co">#&gt; Running time for posterior draws </span></span>
-<span><span class="co">#&gt; (1000 signal strength posterior draws per AE-drug pair):0.0455 seconds.</span></span>
+<span><span class="co">#&gt; (1000 signal strength posterior draws per AE-drug pair):0.0428 seconds.</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Extract estimated prior parameters, discovered signals</span></span>
 <span><span class="co">#&gt; and signal strength posterior draws using `summary()`.</span></span>
@@ -344,10 +344,10 @@ message reports that optimizer convergence was not achieved.</p>
 <span><span class="co">#&gt; General-gamma model with hyperparameter alpha = 0.5.</span></span>
 <span><span class="co">#&gt; Estimated prior is a mixture of 18 gamma distributions.</span></span>
 <span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; Running time of the general-gamma model fitting: 0.3596 seconds.</span></span>
+<span><span class="co">#&gt; Running time of the general-gamma model fitting: 0.3443 seconds.</span></span>
 <span><span class="co">#&gt; Optimizer convergence: successful.</span></span>
 <span><span class="co">#&gt; Running time for posterior draws </span></span>
-<span><span class="co">#&gt; (1000 signal strength posterior draws per AE-drug pair):0.2252 seconds.</span></span>
+<span><span class="co">#&gt; (1000 signal strength posterior draws per AE-drug pair):0.1886 seconds.</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Extract estimated prior parameters, discovered signals</span></span>
 <span><span class="co">#&gt; and signal strength posterior draws using `summary()`.</span></span>
@@ -471,10 +471,10 @@ time-consuming when large candidate grids are used.</p>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; efron model is fitted with hyperparameters (p = 80, c0 = 0.1).</span></span>
 <span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; Running time of the efron model fitting: 0.1778 seconds.</span></span>
+<span><span class="co">#&gt; Running time of the efron model fitting: 0.1701 seconds.</span></span>
 <span><span class="co">#&gt; Optimizer convergence: successful.</span></span>
 <span><span class="co">#&gt; Running time for posterior draws </span></span>
-<span><span class="co">#&gt; (1000 signal strength posterior draws per AE-drug pair):0.0287 seconds.</span></span>
+<span><span class="co">#&gt; (1000 signal strength posterior draws per AE-drug pair):0.0277 seconds.</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Extract estimated prior parameters, discovered signals</span></span>
 <span><span class="co">#&gt; and signal strength posterior draws using `summary()`.</span></span></code></pre></div>

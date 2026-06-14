@@ -167,20 +167,20 @@ gg_given_alpha <- pvEBayes(statin2025_44,
   tol_ecm = 1e-4  #default value
 )
 #> ℹ Fitting general-gamma model...
-#> ✔ Fitting general-gamma model... [351ms]
+#> ✔ Fitting general-gamma model... [335ms]
 #> 
 #> ℹ Generating 1000 posterior draws...
-#> ✔ Generating 1000 posterior draws... [107ms]
+#> ✔ Generating 1000 posterior draws... [96ms]
 #> 
 #> Object of class 'pvEBayes'
 #> 
 #> General-gamma model with hyperparameter alpha = 0.5.
 #> Estimated prior is a mixture of 18 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.3596 seconds.
+#> Running time of the general-gamma model fitting: 0.3443 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (1000 signal strength posterior draws per AE-drug pair):0.2252 seconds.
+#> (1000 signal strength posterior draws per AE-drug pair):0.1886 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
@@ -214,20 +214,20 @@ gg_given_alpha2 <- pvEBayes(statin2025_44,
   tol_ecm = 1e-8  #smaller tolerance for convergence 
 )
 #> ℹ Fitting general-gamma model...
-#> ✔ Fitting general-gamma model... [357ms]
+#> ✔ Fitting general-gamma model... [347ms]
 #> 
 #> ℹ Generating 1000 posterior draws...
-#> ✔ Generating 1000 posterior draws... [37ms]
+#> ✔ Generating 1000 posterior draws... [35ms]
 #> 
 #> Object of class 'pvEBayes'
 #> 
 #> General-gamma model with hyperparameter alpha = 0.5.
 #> Estimated prior is a mixture of 18 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.365 seconds.
+#> Running time of the general-gamma model fitting: 0.3553 seconds.
 #> Optimizer convergence: not achieved.
 #> Running time for posterior draws 
-#> (1000 signal strength posterior draws per AE-drug pair):0.0455 seconds.
+#> (1000 signal strength posterior draws per AE-drug pair):0.0428 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
@@ -251,10 +251,10 @@ summary(gg_given_alpha)
 #> General-gamma model with hyperparameter alpha = 0.5.
 #> Estimated prior is a mixture of 18 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.3596 seconds.
+#> Running time of the general-gamma model fitting: 0.3443 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (1000 signal strength posterior draws per AE-drug pair):0.2252 seconds.
+#> (1000 signal strength posterior draws per AE-drug pair):0.1886 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
@@ -393,10 +393,10 @@ e_tune_statin44
 #> 
 #> efron model is fitted with hyperparameters (p = 80, c0 = 0.1).
 #> 
-#> Running time of the efron model fitting: 0.1778 seconds.
+#> Running time of the efron model fitting: 0.1701 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (1000 signal strength posterior draws per AE-drug pair):0.0287 seconds.
+#> (1000 signal strength posterior draws per AE-drug pair):0.0277 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
