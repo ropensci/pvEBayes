@@ -1,3 +1,34 @@
+# pvEBayes 0.3.0
+
+## Resubmission
+
+This is a re-submission to update the changes made during the rOpenSci peer review.
+
+## Changelog
+
+- improved the documentation and vignette.
+
+- included two opioid-related datasets
+
+- expanded and improved the unit tests.
+
+- fixed bugs.
+
+- improved message output.
+
+## Test environment:
+
+- local Windows 10 install, R version 4.5.0 (2025-04-11 ucrt)
+
+- macos-latest (release), windows-latest (release), ubuntu-latest (devel),
+ubuntu-latest (release) and ubuntu-latest (oldrel-1) through GitHub actions.
+
+## R CMD check results
+
+There were no ERRORs or WARNINGs in any platforms.
+
+
+
 # pvEBayes 0.2.2
 
 ## Resubmission
