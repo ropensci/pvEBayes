@@ -1,5 +1,17 @@
 # Changelog
 
+## pvEBayes 0.3.0
+
+\*Improved the documentation and vignette.
+
+\*Included two opioid-related datasets
+
+\*Expanded and improved the unit tests.
+
+\*Fixed bugs.
+
+\*Improved message output.
+
 ## pvEBayes 0.2.2
 
 CRAN release: 2026-03-13

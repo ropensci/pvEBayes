@@ -97,11 +97,9 @@ Statistician.* 1999; 1;53(3):177-90.
 
 Useful links:
 
-- <https://github.com/YihaoTancn/pvEBayes>
+- <https://github.com/ropensci/pvEBayes>
 
-- <https://yihaotancn.github.io/pvEBayes/>
-
-- Report bugs at <https://github.com/YihaoTancn/pvEBayes/issues>
+- Report bugs at <https://github.com/ropensci/pvEBayes/issues>
 
 ## Author
 
