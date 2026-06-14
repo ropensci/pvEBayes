@@ -54,6 +54,6 @@ Suggests:
     rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://github.com/YihaoTancn/pvEBayes, https://yihaotancn.github.io/pvEBayes/
-BugReports: https://github.com/YihaoTancn/pvEBayes/issues
+URL: https://github.com/ropensci/pvEBayes, https://yihaotancn.github.io/pvEBayes/
+BugReports: https://github.com/ropensci/pvEBayes/issues
 VignetteBuilder: knitr

@@ -7,7 +7,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/yihaotancn/pvebayes/badge)](https://www.codefactor.io/repository/github/yihaotancn/pvebayes)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Status at rOpenSci Software Peer Review](https://badges.ropensci.org/760_status.svg)](https://github.com/ropensci/software-review/issues/760)
-<!--[![Status at rOpenSci Software Peer Review](https://badges.ropensci.org/746_status.svg)](https://github.com/ropensci/software-review/issues/746)-->
 <!-- badges: end -->
 
 `pvEBayes` is an R package that implements a suite of nonparametric empirical
