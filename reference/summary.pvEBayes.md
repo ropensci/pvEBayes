@@ -74,20 +74,20 @@ obj <- pvEBayes(
   alpha = 0.5, n_posterior_draws = 10000
 )
 #> ℹ Fitting general-gamma model...
-#> ✔ Fitting general-gamma model... [262ms]
+#> ✔ Fitting general-gamma model... [315ms]
 #> 
 #> ℹ Generating 10000 posterior draws...
-#> ✔ Generating 10000 posterior draws... [226ms]
+#> ✔ Generating 10000 posterior draws... [274ms]
 #> 
 #> Object of class 'pvEBayes'
 #> 
 #> General-gamma model with hyperparameter alpha = 0.5.
 #> Estimated prior is a mixture of 18 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.2686 seconds.
+#> Running time of the general-gamma model fitting: 0.3228 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (10000 signal strength posterior draws per AE-drug pair):0.2323 seconds.
+#> (10000 signal strength posterior draws per AE-drug pair):0.2822 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
@@ -99,10 +99,10 @@ summary(obj)
 #> General-gamma model with hyperparameter alpha = 0.5.
 #> Estimated prior is a mixture of 18 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.2686 seconds.
+#> Running time of the general-gamma model fitting: 0.3228 seconds.
 #> Optimizer convergence: successful.
 #> Running time for posterior draws 
-#> (10000 signal strength posterior draws per AE-drug pair):0.2323 seconds.
+#> (10000 signal strength posterior draws per AE-drug pair):0.2822 seconds.
 #> 
 #> Extract estimated prior parameters, discovered signals
 #> and signal strength posterior draws using `summary()`.
