@@ -1,5 +1,7 @@
 # pvEBayes 0.3.0 
 
+*Passed rOpenSci software peer review with gold grade
+
 *Improved the documentation and vignette.
 
 *Included two opioid-related datasets
