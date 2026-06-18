@@ -43,7 +43,7 @@ fit <- pvEBayes(
 #> General-gamma model with hyperparameter alpha = 0.3.
 #> Estimated prior is a mixture of 18 gamma distributions.
 #> 
-#> Running time of the general-gamma model fitting: 0.2202 seconds.
+#> Running time of the general-gamma model fitting: 0.2197 seconds.
 #> Optimizer convergence: successful.
 #> No posterior draws were generated.
 #> 

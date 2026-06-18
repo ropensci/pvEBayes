@@ -2,6 +2,10 @@
 
 ## pvEBayes 0.3.0
 
+CRAN release: 2026-06-16
+
+\*Passed rOpenSci software peer review with gold grade
+
 \*Improved the documentation and vignette.
 
 \*Included two opioid-related datasets

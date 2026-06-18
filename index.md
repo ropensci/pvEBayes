@@ -98,7 +98,7 @@ The stable version of `pvEBayes` can be installed from CRAN:
 The development version is available from GitHub:
 
     # if (!requireNamespace("devtools")) install.packages("devtools")
-    devtools::install_github("YihaoTancn/pvEBayes")
+    devtools::install_github("ropensci/pvEBayes")
 
 ## Quick Example
 
